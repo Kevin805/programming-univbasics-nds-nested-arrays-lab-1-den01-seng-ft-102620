@@ -45,4 +45,5 @@ end
 
 def matrix_update(matrix, row, column, new_value)
 assembled_matrix[0][2] = "Lemons"
+return assembled_matrix
 end
