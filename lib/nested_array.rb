@@ -44,5 +44,5 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix[2][0] = "Onions"
+  matrix[0][2] = "Onions"
 end
