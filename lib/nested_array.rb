@@ -44,6 +44,6 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  assembled_matrix.dup[0][2] = "Onions"
-  return assembled_matrix.dup
+  assembled_matrix[0][2] = "Onions"
+  return assembled_matrix
 end
